@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/main_task_logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="31dp"
+        android:adjustViewBounds="false"
+        android:background="@color/tealLightBluePrimaryLight"
+        android:cropToPadding="false"
+        android:padding="8dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_menu_heading"
+        app:srcCompat="@drawable/daily_task_logo" />
+
+    <TextView
+        android:id="@+id/main_menu_heading"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/tealLightBluePrimary"
+        android:gravity="center"
+        android:lineSpacingExtra="10sp"
+        android:text="MAIN MENU"
+        android:textColor="@color/tealLightBlueIcons"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/main_task_heading"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TUGAS DAN TANTANGAN"
+        android:textAllCaps="true"
+        android:textColor="@color/tealLightBluePrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/main_task_logo"
+        app:layout_constraintTop_toTopOf="@+id/main_task_logo" />
+
+    <TextView
+        android:id="@+id/main_refrence_desc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginStart="8dp"
+        android:text="Temukan doa dan dzikir yang belum kamu ketahui"
+        app:fontFamily="@font/roboto_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/main_refrence_logo"
+        app:layout_constraintTop_toBottomOf="@+id/main_reference_heading" />
+
+    <TextView
+        android:id="@+id/main_task_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginStart="8dp"
+        android:text="Kerjakan Ibadahmu sehari-hari atau jalani tantangan yang kami berikan"
+        app:fontFamily="@font/roboto_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/main_task_logo"
+        app:layout_constraintTop_toBottomOf="@+id/main_task_heading" />
+
+    <ImageButton
+        android:id="@+id/main_refrence_logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:adjustViewBounds="true"
+        android:background="@color/tealLightBluePrimaryLight"
+        android:cropToPadding="true"
+        android:padding="8dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_task_logo"
+        app:srcCompat="@drawable/pray_refrence_logo" />
+
+    <TextView
+        android:id="@+id/main_reference_heading"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="REFRENSI DOA DAN DZIKIR"
+        android:textAllCaps="true"
+        android:textColor="@color/tealLightBluePrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:fontFamily="sans-serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/main_refrence_logo"
+        app:layout_constraintTop_toTopOf="@+id/main_refrence_logo" />
+
+</android.support.constraint.ConstraintLayout>

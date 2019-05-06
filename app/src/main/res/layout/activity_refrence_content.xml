@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RefrenceContentActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/refrence_content_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="importRefrenceContentTitle"
+        android:textColor="@color/tealLightBluePrimary_text"
+        android:textSize="24sp"
+        app:fontFamily="@font/roboto_medium" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/refrence_content_description_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="24dp"
+                android:text="Deskripsi : "
+                android:textColor="@color/tealLightBluePrimaryDark"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/roboto_regular" />
+
+            <TextView
+                android:id="@+id/refrence_content_descripton_subheading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:background="#A0F0F0"
+                android:padding="10dp"
+                android:text="importRefrenceContentDescription"
+                android:textColor="@color/tealLightBluePrimary_text"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/roboto_light" />
+
+            <TextView
+                android:id="@+id/refrence_content_doa_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Do'a :"
+                android:textColor="@color/tealLightBluePrimaryDark"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/roboto_regular" />
+
+            <TextView
+                android:id="@+id/refrence_content_doa_subheading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:background="#A0F0F0"
+                android:padding="10dp"
+                android:text="importRefrenceContentDoa"
+                android:textColor="@color/tealLightBluePrimary_text"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/roboto_light" />
+
+            <TextView
+                android:id="@+id/refrence_content_arti_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Arti :"
+                android:textColor="@color/tealLightBluePrimaryDark"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/roboto_regular" />
+
+            <TextView
+                android:id="@+id/refrence_content_arti_subheading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:background="#A0F0F0"
+                android:padding="10dp"
+                android:text="importRefrenceContentArti"
+                android:textColor="@color/tealLightBluePrimary_text"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/roboto_light" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/listview_daily_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="10"
+            android:padding="10dp"
+            android:text="importTitle"
+            android:textColor="@color/tealLightBluePrimary_text"
+            android:textSize="24sp"
+            app:fontFamily="@font/roboto_regular" />
+
+        <ImageView
+            android:id="@+id/listview_daily_status"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:contentDescription="JIKA STATUS BELUM, MAKA GAMBAR = CHECK GREY. JIKA STATUS SUDAH, MAKA GAMBAR = CHECK BLUE. GAMBAR ADA DI DRAWABLE"
+            app:srcCompat="@drawable/ic_action_check_grey" />
+
+    </LinearLayout>
+
+</LinearLayout>

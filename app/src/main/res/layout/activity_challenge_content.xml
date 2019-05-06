@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="5dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="5dp"
+    tools:context=".ChallengeContentActivity">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Descjudul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:text="importTitle"
+                android:textColor="@color/tealLightBluePrimary_text"
+                android:textSize="30dp"
+                app:fontFamily="@font/roboto_medium" />
+
+            <TextView
+                android:id="@+id/titleDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/penjelasan_singkat"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                app:fontFamily="@font/roboto_regular" />
+
+            <TextView
+                android:id="@+id/Descdeskripsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:layout_marginTop="8dp"
+                android:background="#A0F0F0"
+                android:gravity="fill"
+                android:padding="10dp"
+                android:text="importDescription"
+                android:textColor="@color/tealLightBluePrimary_text"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/roboto_light" />
+
+            <TextView
+                android:id="@+id/titleTask"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/tugas"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/Desctugas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="#A0F0F0"
+                android:gravity="fill"
+                android:padding="10dp"
+                android:text="importTask"
+                android:textColor="@color/tealLightBluePrimary_text"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/roboto_light" />
+
+            <TextView
+                android:id="@+id/titleDone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/status_penyelesaian"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                app:fontFamily="@font/roboto_regular" />
+
+            <TextView
+                android:id="@+id/Descpenyelesaian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill"
+                android:padding="10dp"
+                android:text="importDone"
+                android:textColor="@color/tealLightBluePrimary_text"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/roboto_light" />
+
+            <Button
+                android:id="@+id/buttonAcceptDone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:background="@color/tealLightBlueAccent"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>
